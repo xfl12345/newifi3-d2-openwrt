@@ -25,7 +25,7 @@ jobs:
       - name: Build Environment Initialization
         run: |
           sudo apt update
-          sudo apt -qq purge azure-cli ghc zulu* hhvm llvm* firefox google* dotnet* powershell mysql* php* mssql-tools msodbcsql17 android*
+          sudo apt -qq purge azure-cli ghc zulu* llvm* firefox google* dotnet* powershell mysql* php* mssql-tools msodbcsql17 android*
 
           sudo rm -rf /usr/local/lib/android
           sudo rm -rf /var/lib/docker
